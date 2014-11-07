@@ -1,0 +1,32 @@
+{
+  "name": "TDD",
+  "version": "1.0.0",
+  "description": "test testing",
+  "main": "lib/post.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jscs": "^0.8.1",
+    "grunt-simple-mocha": "^0.4.0",
+    "chai": "^1.9.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  },
+  "scripts": {
+    "test": "'grunt --verbose'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacshfr/TDD.git"
+  },
+  "author": "JShafer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacshfr/TDD/issues"
+  },
+  "homepage": "https://github.com/jacshfr/TDD"
+}
